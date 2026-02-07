@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://coffeewithshepherd.ca/sitemap.xml
+Sitemap: https://coffeewithshepherd.com/sitemap.xml
