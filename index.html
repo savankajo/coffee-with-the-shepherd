@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Coffee with the Shepherd | Faith is our Solid Ground</title>
+    <meta name="title" content="Coffee with the Shepherd | Faith is our Solid Ground" />
+    <meta name="description" content="Coffee with the Shepherd — A quiet moment of reflection over coffee and Scripture. Watch our episodes on YouTube and TV every Saturday." />
+    <meta name="keywords" content="Coffee with the Shepherd, Christian podcast, Bible study podcast, Father's Heart Ministry, gospel podcast, Joy TV, Vision TV, Arabic church Surrey" />
+    <meta name="author" content="Coffee with the Shepherd" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://coffeewithshepherd.com/" />
+    <meta property="og:title" content="Coffee with the Shepherd | Faith is our Solid Ground" />
+    <meta property="og:description" content="A quiet moment of reflection over coffee and Scripture. Watch our episodes on YouTube." />
+    <meta property="og:image" content="https://res.cloudinary.com/dyjffxbef/image/upload/v1762368550/3dcaf923-da22-4be7-ab8d-65a2d3408b0a_kpvrsd.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://coffeewithshepherd.com/" />
+    <meta property="twitter:title" content="Coffee with the Shepherd | Faith is our Solid Ground" />
+    <meta property="twitter:description" content="A quiet moment of reflection over coffee and Scripture." />
+    <meta property="twitter:image" content="https://res.cloudinary.com/dyjffxbef/image/upload/v1762368550/3dcaf923-da22-4be7-ab8d-65a2d3408b0a_kpvrsd.png" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "PodcastSeries",
+        "name": "Coffee with the Shepherd",
+        "description": "A quiet moment of reflection over coffee and Scripture.",
+        "url": "https://coffeewithshepherd.com/",
+        "email": "info@coffeewithshepherd.com"
+      }
+    </script>
+
+    <!-- TailwindCSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet">
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              navy: '#1a3a5c',
+              'navy-dark': '#0f2540',
+              'navy-light': '#2a4a6c',
+              gold: '#D4AF37',
+              'gold-light': '#E8CC6A',
+              olive: '#8A8C52',
+              cream: '#FFF8E9',
+              'cream-dark': '#F5EDD6',
+            },
+            fontFamily: {
+              heading: ['Playfair Display', 'Georgia', 'serif'],
+              body: ['Inter', 'Open Sans', 'sans-serif'],
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0', transform: 'translateY(30px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              slideInLeft: {
+                '0%': { opacity: '0', transform: 'translateX(-40px)' },
+                '100%': { opacity: '1', transform: 'translateX(0)' },
+              },
+              shimmer: {
+                '0%': { backgroundPosition: '-1000px 0' },
+                '100%': { backgroundPosition: '1000px 0' },
+              }
+            },
+            animation: {
+              fadeIn: 'fadeIn 1s ease-out forwards',
+              slideInLeft: 'slideInLeft 0.8s ease-out forwards',
+            },
+          }
+        }
+      }
+    </script>
+
+    <style>
+      html { scroll-behavior: smooth; }
+      * { box-sizing: border-box; }
+      img { -webkit-user-drag: none; }
+      ::-webkit-scrollbar { width: 6px; }
+      ::-webkit-scrollbar-track { background: #f1f1f1; }
+      ::-webkit-scrollbar-thumb { background: #1a3a5c; border-radius: 3px; }
+      ::-webkit-scrollbar-thumb:hover { background: #D4AF37; }
+    </style>
+
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.5",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-cream font-body text-navy">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
